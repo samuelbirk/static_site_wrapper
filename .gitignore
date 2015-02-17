@@ -1,0 +1,6 @@
+._*
+*.swo
+*.swp
+*codekit*
+node_modules
+assets/node_modules

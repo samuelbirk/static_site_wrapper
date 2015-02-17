@@ -1,0 +1,259 @@
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Bootstrap v3.2.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/***************************
+*
+*
+*		Navigation
+*
+*
+***************************/
+.navbar-nrl {
+  background-image: -webkit-linear-gradient(top, #006 0%, #006 100%);
+  background-image:      -o-linear-gradient(top, #006 0%, #006 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#006));
+  background-image:         linear-gradient(to bottom, #006 0%, #006 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000066', endColorstr='#000066', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
+
+.navbar-nav {
+  margin: 20px 20px 0 0;
+}
+
+.navbar-nrl .navbar-nav > .active > a,
+ .navbar-nrl .navbar-nav > .active > a:hover,
+ .navbar-nrl .navbar-nav > .active > a:focus {
+  color: #fff;
+  background: #008;
+}
+
+.navbar-nrl .navbar-nav > .active > a {
+  color: #ffe43c;
+  background-image: -webkit-linear-gradient(top, #006 0%, #006 100%);
+  background-image:      -o-linear-gradient(top, #006 0%, #006 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#006), to(#006));
+  background-image:         linear-gradient(to bottom, #006 0%, #006 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000066', endColorstr='#000066', GradientType=0);
+  background-repeat: repeat-x;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+}
+
+.navbar-nrl .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-nrl .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #008;
+}
+.navbar-brand {
+  margin: 20px;
+}
+.navbar-nrl .navbar-brand {
+  color: #ffe43c;
+}
+
+.navbar-nrl .navbar-brand:hover,
+.navbar-nrl .navbar-brand:focus {
+  color: #fff;
+  background-color: #008;
+}
+.navbar-nrl .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-nrl .navbar-toggle:hover,
+.navbar-nrl .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-nrl .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-nrl .navbar-collapse,
+.navbar-nrl .navbar-form {
+  border-color: #101010;
+}
+.navbar-toggle .icon-bar-nrl {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar-nrl + .icon-bar-nrl {
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+  .navbar-header img {
+    float: left;
+  }
+}
+
+.navbar-header img {
+  float: left;
+}
+
+.navbar-nrl .navbar-nav > .open > a,
+.navbar-nrl .navbar-nav > .open > a:hover,
+.navbar-nrl .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #008;
+}
+/***************************
+*
+*
+*		Main Body
+*
+***************************/
+
+.main {
+  min-width: 700px;
+  min-height: 300px;
+  padding: 20px;
+  margin-bottom: 10px ;
+  background-color: #fff;
+  border: 1px solid #dedede;
+          border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px rgba(189, 189, 189, .4);
+     -moz-box-shadow: 0 0 10px rgba(189, 189, 189, .4);
+          box-shadow: 0 0 10px rgba(189, 189, 189, .4);
+
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+}
+
+/***************************
+*
+*
+*		Buttons
+*
+*
+***************************/
+
+/*Primary Button*/
+.btn-primary-nrl {
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #006;
+  border-color: #357ebd;
+}
+.btn-primary-nrl:focus {
+  color: #fff;
+  border-color: #285e8e;
+}
+.btn-primary-nrl:active,
+.btn-primary-nrl.active,
+.open .dropdown-toggle.btn-primary-nrl {
+  color: #fff;
+  background-color: #006;
+  border-color: #357ebd;
+}
+.btn-primary-nrl:hover {
+  color: #ffe43c;
+  background-color: #006;
+  border-color: #285e8e;
+}
+.btn-primary-nrl:active,
+.btn-primary-nrl.active,
+.open .dropdown-toggle.btn-primary-nrl {
+  background-image: none;
+}
+.btn-primary-nrl.disabled,
+.btn-primary-nrl[disabled],
+fieldset[disabled] .btn-primary-nrl,
+.btn-primary-nrl.disabled:hover,
+.btn-primary-nrl[disabled]:hover,
+fieldset[disabled] .btn-primary-nrl:hover,
+.btn-primary-nrl.disabled:focus,
+.btn-primary-nrl[disabled]:focus,
+fieldset[disabled] .btn-primary-nrl:focus,
+.btn-primary-nrl.disabled:active,
+.btn-primary-nrl[disabled]:active,
+fieldset[disabled] .btn-primary-nrl:active,
+.btn-primary-nrl.disabled.active,
+.btn-primary-nrl[disabled].active,
+fieldset[disabled] .btn-primary-nrl.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-primary-nrl .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+
+
+/******************* Action Button *****************/
+.btn-action-nrl {
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #27ae60;
+  border-color: #357ebd;
+}
+.btn-action-nrl:focus {
+  color: #fff;
+  border-color: #285e8e;
+}
+.btn-action-nrl:active,
+.btn-action-nrl.active,
+.open .dropdown-toggle.btn-action-nrl {
+  color: #fff;
+  background-color: #006;
+  border-color: #357ebd;
+}
+.btn-action-nrl:hover {
+  color: #ffe43c;
+  background-color: #006;
+  border-color: #285e8e;
+}
+.btn-action-nrl:active,
+.btn-action-nrl.active,
+.open .dropdown-toggle.btn-action-nrl {
+  background-image: none;
+}
+.btn-action-nrl.disabled,
+.btn-action-nrl[disabled],
+fieldset[disabled] .btn-action-nrl,
+.btn-action-nrl.disabled:hover,
+.btn-action-nrl[disabled]:hover,
+fieldset[disabled] .btn-action-nrl:hover,
+.btn-action-nrl.disabled:focus,
+.btn-action-nrl[disabled]:focus,
+fieldset[disabled] .btn-action-nrl:focus,
+.btn-action-nrl.disabled:active,
+.btn-action-nrl[disabled]:active,
+fieldset[disabled] .btn-action-nrl:active,
+.btn-action-nrl.disabled.active,
+.btn-action-nrl[disabled].active,
+fieldset[disabled] .btn-action-nrl.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+.btn-action-nrl .badge {
+  color: #428bca;
+  background-color: #fff;
+}
